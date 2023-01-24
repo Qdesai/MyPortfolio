@@ -5,15 +5,16 @@
     box-sizing: border-box;
 }
 /***********************************
-       1. Header & Navigaiton styles.
-       2. Body  Styles
+       1. Navigaiton styles.
+       2. Header Styles.
+       . Body  Styles.
 ************************************/
 
 
 
 
 /***********************************
-        Header & Navigaiton styles
+         Navigaiton styles
 ************************************/
 
 .container{
@@ -62,7 +63,24 @@ nav ul li a:hover::after{
 }
 
 /***********************************
-        Body styles
+        Header Styles
+************************************/
+
+.intro-text{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.intro-text h1{
+    font-size: 1.7em;
+}
+
+.intro-text h1 span{
+    color: #FF5F1F;
+}
+
+/***********************************
+        Body Styles
 ************************************/
 
 body{
@@ -70,5 +88,9 @@ body{
 }
 
 h1{
+    color: white;
+}
+
+p{
     color: white;
 }
