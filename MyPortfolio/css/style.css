@@ -158,6 +158,11 @@ footer {
     padding: 20px;
     text-align: center;
   }
+
+  footer > p{
+    color: black;
+    margin-bottom: 2%;
+  }
   
   footer ul {
     list-style: none;
